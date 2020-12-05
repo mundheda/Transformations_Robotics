@@ -1,5 +1,4 @@
 # Transformations_Robotics
-Converting a RGBD image into Point Cloud and applying Transformations to convert it into Global Frame.
 
 ### Using Open3d to Convert RGBD images recieved from SUN RGB-D dataset (S.Song, CVPR 2015 (https://rgbd.cs.princeton.edu/)) into Point Cloud Data in .pcd format
 

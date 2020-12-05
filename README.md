@@ -3,8 +3,7 @@
 ### Using Open3d to Convert RGBD images recieved from SUN RGB-D dataset (S.Song, CVPR 2015 (https://rgbd.cs.princeton.edu/)) into Point Cloud Data in .pcd format
 
 - Read two images color.jpg and depth.png given in current folder using Open3D. 
-- Converted it into a point cloud using the default camera parameters
-( o3d.camera.PinholeCameraIntrinsicParameters.PrimeSenseDefault ). 
+- Converted it into a point cloud using the default camera parameters (o3d.camera.PinholeCameraIntrinsicParameters.PrimeSenseDefault). 
 - Created a "world" frame and combine this (just use operator) with the above point cloud and save it as scene.pcd . 
 - Wrote function one_one to visualize scene.pcd
 
